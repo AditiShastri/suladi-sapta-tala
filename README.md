@@ -11,7 +11,11 @@ It displays a random tala and jati and users (you!) can try rendering the corres
 
 # how to use this?
 
+random-tala-jati :
 This is a simple 3 line python script- run it anyway you'd like!
+
+.html :
+This is a HTMl/JS version.
 
 
 # What next?
