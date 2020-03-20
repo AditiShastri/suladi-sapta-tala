@@ -1,0 +1,6 @@
+import random
+
+taala= ["dhruva","matya","triputa","ata","jhampe","rupaka","eka"]
+jaati= ["tishra","chaturashra","khanda","mishra","sankeerna"]
+
+print( "random combination of any taala and any jaati : ", taala[ random.randint(0,len(taala)-1)] , " tala - ", jaati[ random.randint(0,len(jaati)-1)], "jati")
