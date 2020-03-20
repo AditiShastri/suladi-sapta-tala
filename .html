@@ -1,0 +1,64 @@
+
+<!DOCTYPE html>
+
+<html>
+
+<body>
+
+ 
+
+<p>Click the button to change the text in this paragraph.</p>
+
+ 
+
+<button onclick="show_random_TaalaJaati()">get a random taala - jaati combination tto practice now</button>
+
+ 
+
+<p id="demo"></p>
+
+ 
+
+<script>
+
+// Returns a random integer between min and max
+
+// Using Math.round() will give you a non-uniform distribution!
+
+function getRandomInt(min, max) {
+
+  return Math.floor(Math.random() * (max - min + 1)) + min;
+
+}
+
+//uses a random num to pick an item from each array and show
+
+function show_random_TaalaJaati() {
+
+  var Taalas = ["Dhruva","Matya","Roopaka","Triputa","Atta","Jamphe","Eka"];
+
+  var Jaatis = ["Thrishra","Chathurashra","Khanda","Mishra","Sankeerna"];
+
+  var random_TaalaJaati = Taalas[getRandomInt(0,Taalas.length-1)] + " - " + Jaatis[getRandomInt(0,Jaatis.length-1)]; // generate random number between 0 and 1
+
+  //alert(random_TaalaJaati); // show popup with a random number
+
+  document.getElementById("demo").innerHTML = random_TaalaJaati;
+
+}
+
+ 
+
+function myFunction() {
+
+  document.getElementById("demo").innerHTML = "Hello World";
+
+}
+
+</script>
+
+ 
+
+</body>
+
+</html>
