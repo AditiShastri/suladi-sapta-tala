@@ -6,7 +6,7 @@ A python tala and jati combiner to randomly display the suladi sapta talas - use
 This is specifically for the students of Carnatic music, who need to prepare for the exam with the ability to recall any combination of *taala and *jaati
 I thought, i will use a simple script to act like an examiner, who will RANDOMLY ask for a combination which I will recite.
 
-I will Carnatic Music Theory and 
+I will link to Carnatic Music Theory etc ASAP.
 
 # how to use this?
 This is a very short python script.. just run it anyway we need.
