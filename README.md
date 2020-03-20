@@ -1,4 +1,5 @@
-# suladi-sapta-tala
+# suladi-sapta-tala  (or sooLaadi - sapta - TaaLa)
+
 A python tala and jati combiner to randomly display the suladi sapta talas - useful during practise sessions!
 
 
